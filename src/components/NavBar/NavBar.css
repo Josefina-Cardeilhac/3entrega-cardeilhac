@@ -48,7 +48,7 @@
     width: auto;
     padding: 12px;
     font-size: 15px;
-    background: hsl(7, 91%, 57%)0;
+    background: #a0f8a0;
     border-radius: 8px;
     flex: none;
     display: flex;
@@ -66,7 +66,7 @@
   }
   
   .NavLink {
-    color :hsl(7, 91%, 57%))
+    color :#a0f8a0
   } 
 
  
