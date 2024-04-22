@@ -5,9 +5,10 @@ import NavBar from "./components/NavBar/NavBar"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import {CartProvider} from './context/CartContext'
 import { NotificationProvider } from './context/Notification'
-
 import Cart from './components/Cart/Cart'
 import Checkout from './components/Checkout/Checkout'
+import Home from "./components/pages/Home"
+import Contactanos from "./components/pages/Contactanos"
 
 
 
@@ -39,6 +40,8 @@ function App() {
               />
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="/Contactanos" element={<Contactanos />} />
               <Route path="*" element={<h1>404 NOT FOUND</h1>} />
             </Routes>
           </CartProvider>

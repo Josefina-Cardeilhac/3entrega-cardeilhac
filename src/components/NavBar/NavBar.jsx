@@ -8,13 +8,13 @@ return (
     <Link to={"/"}> Ecomerce </Link>
     <section className='Categories'>
       <NavLink
-        to={"/category/celular"}
+        to={"/Home"}
         className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
       >
         Celulares
       </NavLink>
       <NavLink
-        to={"/category/tablet"}
+        to={"/Contactanos"}
         className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
       >
         Tablets
