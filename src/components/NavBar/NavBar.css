@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background: wheat;
+    background: #a0f8a0;
   }
   
   .Categories {
@@ -14,15 +14,15 @@
   }
   
   .Option {
-    /* color: #8C30F5; */
+    
     text-decoration: none;
     border-radius: 25;
     margin: 0 50px;
-    /* TODO */
+ 
     width: auto;
     padding: 12px;
     font-size: 8px;
-    background: #8C30F5;
+    background: hsl(7, 91%, 57%);
     border-radius: 8px;
     flex: none;
     display: flex;
@@ -40,15 +40,15 @@
   }
   
   .ActiveOption {
-    /* color: #8C30F5; */
+   
     text-decoration: none;
     border-radius: 25;
     margin: 0 50px;
-    /* TODO */
+ 
     width: auto;
     padding: 12px;
     font-size: 15px;
-    background: blue;
+    background: hsl(7, 91%, 57%)0;
     border-radius: 8px;
     flex: none;
     display: flex;
@@ -66,5 +66,7 @@
   }
   
   .NavLink {
-    color :rgb(255, 0, 0)
-  }
+    color :hsl(7, 91%, 57%))
+  } 
+
+ 

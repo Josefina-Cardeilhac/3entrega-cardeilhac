@@ -5,19 +5,19 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
 return (
   <nav className="NavBar">
-    <Link to={"/"}> Ecomerce </Link>
+    <Link to={"/"}> Productos </Link>
     <section className='Categories'>
       <NavLink
         to={"/Home"}
         className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
       >
-        Celulares
+        Home
       </NavLink>
       <NavLink
         to={"/Contactanos"}
         className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
       >
-        Tablets
+        Contctanos
       </NavLink>
       <NavLink
         to={"/category/computers"}
