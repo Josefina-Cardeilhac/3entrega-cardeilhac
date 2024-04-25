@@ -9,6 +9,7 @@ import Cart from './components/Cart/Cart'
 import Checkout from './components/Checkout/Checkout'
 import Home from "./components/pages/Home"
 import Contactanos from "./components/pages/Contactanos"
+import Footer from './components/Footer/Footer'
 
 
 
@@ -47,6 +48,7 @@ function App() {
           </CartProvider>
         </NotificationProvider>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
